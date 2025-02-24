@@ -3,20 +3,34 @@ body {
   margin: 0; /* Ensure no default margin */
 }
 
+/* Text selection highlight */
+::selection {
+  background: #f8fcb3; /* Light yellow highlight from your update */
+  color: #000; /* Black text for contrast */
+}
+
+::-moz-selection {
+  background: #f8fcb3;
+  color: #000;
+}
+
 .app {
   font-family: 'Arial', sans-serif;
-  margin: 0 auto;
-  padding: 30px 30px; /* Small left/right margins */
+  margin: 0 auto; /* Center the content */
+  padding: 30px 30px; /* Updated padding */
   max-width: 800px;
   color: #333;
   line-height: 1.6;
-  font-size: 14px; /* Smaller base font size */
+  font-size: 18px; /* Updated base font size */
+  display: flex; /* Enable flexbox for footer positioning */
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Full viewport height */
 }
 
 header {
   text-align: right; /* Header on the right */
   padding: 20px 0;
-  min-width: 250px
+  min-width: 250px;
 }
 
 header h1 {
@@ -75,6 +89,7 @@ nav a {
 
 main {
   margin: 20px 0;
+  flex: .9; /* Allows main to grow and push footer down */
 }
 
 section h2 {
@@ -85,7 +100,8 @@ section h2 {
 
 section p {
   font-size: 0.95em; /* Smaller from 1.1em */
-  min-width: 300px
+  min-width: 300px;
+  margin: 36px 30px; /* Updated spacing between paragraphs */
 }
 
 footer {

@@ -7,19 +7,17 @@ export default async function Writing() {
   const filePath = path.join(process.cwd(), "content", "eng210_essay.md");
   const speechContent = await fs.readFile(filePath, "utf8");
 
-  const newWritings = [
+  const RelatedLinks = [
     { title: "The Future of Tech", url: "https://example.com/tech" },
     { title: "Thoughts on AI", url: "https://example.com/ai" },
   ];
 
   return (
     <section id="writing">
-      <h2>Writing</h2>
-      <p>Links or snippets of my writing are showcased here.</p>
       <ReactMarkdown>{speechContent}</ReactMarkdown>
-      <h3>New Writings</h3>
+      <h3>Related Readings</h3>
       <ul>
-        {newWritings.map((writing, index) => (
+        {RelatedLinks.map((writing, index) => (
           <li key={index}>
             <a href={writing.url} target="_blank" rel="noopener noreferrer">
               {writing.title}
