@@ -17,7 +17,7 @@ export default async function Writing() {
       <h2>Writing</h2>
       <p>Links or snippets of my writing are showcased here.</p>
       
-      <h3>My Speech</h3>
+      <h3>Writings go here</h3>
       <ReactMarkdown>{speechContent}</ReactMarkdown>
 
       <h3>New Writings</h3>

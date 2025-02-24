@@ -1,5 +1,5 @@
 body {
-  background-color: #eeecec; /* Light gray example - change to your desired color */
+  background-color: #e5e5e5; /* Light gray example - change to your desired color */
   margin: 0; /* Ensure no default margin */
 }
 
@@ -36,7 +36,41 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+/* Main navigation (horizontal) */
+.main-nav {
+  display: flex;
+  justify-content: flex-end; /* Aligns Home and Writing to the right */
+}
 
+.main-nav a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 4px;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sub-navigation (vertical) */
+.sub-nav {
+  display: flex;
+  flex-direction: column; /* Vertical arrangement */
+  align-items: flex-end; /* Aligns links to the right */
+  margin-top: 5px; /* Small space between main and sub nav */
+}
+
+.sub-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: normal; /* Less bold than main nav */
+  margin: 2px 0; /* Small vertical spacing between links */
+}
+
+.sub-nav a:hover {
+  text-decoration: underline;
+}
 main {
   margin: 20px 0;
 }

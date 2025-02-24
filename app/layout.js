@@ -14,8 +14,15 @@ export default function RootLayout({ children }) {
           <header>
             <h1>Mr. Brown</h1>
             <nav>
-              <Link href="/">Home</Link>
-              <Link href="/writing">Writing</Link>
+            <div className="main-nav">
+                <Link href="/">Home</Link>
+                <Link href="/writing">Writing</Link>
+              </div>
+              <div className="sub-nav">
+                <Link href="/writing/articles">Articles</Link>
+                <Link href="/writing/essays">Essays</Link>
+                <Link href="/writing/notes">Notes</Link>
+              </div>
             </nav>
           </header>
           <main>{children}</main>
