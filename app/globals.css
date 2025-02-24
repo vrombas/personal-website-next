@@ -1,42 +1,78 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  background-color: #eeecec; /* Light gray example - change to your desired color */
+  margin: 0; /* Ensure no default margin */
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app {
+  font-family: 'Arial', sans-serif;
+  margin: 0 auto;
+  padding: 10px 5px; /* Small left/right margins */
+  max-width: 800px;
+  color: #333;
+  line-height: 1.6;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
+header {
+  text-align: right; /* Header on the right */
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
   margin: 0;
 }
 
-a {
-  color: inherit;
+nav {
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 4px; /* Small left/right margins */
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 1.8em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+section p {
+  font-size: 1.1em;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  color: #777;
+}
+
+/* Markdown styling */
+section#writing h1 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+section#writing ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+section#writing a {
+  color: #007bff;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+section#writing a:hover {
+  text-decoration: underline;
 }
