@@ -27,7 +27,7 @@ export default function RadarChart({ labels, data }) {
     labels: labels, // Dynamic labels from props
     datasets: [
       {
-        label: 'Stats',
+        label: 'Sentiment',
         data: data, // Dynamic data from props
         backgroundColor: 'rgba(0, 123, 255, 0.2)', // Light blue fill
         borderColor: '#007bff', // Matches your link color
