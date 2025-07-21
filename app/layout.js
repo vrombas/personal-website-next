@@ -15,13 +15,10 @@ export default function RootLayout({ children }) {
             <h1>Mr. Brown</h1>
             <nav>
             <div className="main-nav">
-                <Link href="/">Home</Link>
-                <Link href="/writing">Writing</Link>
+                <Link href="/">About</Link>
               </div>
               <div className="sub-nav">
-                <Link href="/writing/articles">Articles</Link>
-                <Link href="/writing/essays">Essays</Link>
-                <Link href="/writing/notes">Notes</Link>
+                <Link href="/writing/Review_of_Made_to_Stick">Review of Made to Stick & The Computer Science of Human Decisions</Link>
               </div>
             </nav>
           </header>

@@ -1,8 +1,6 @@
-# title
+# Review of Made to Stick & The Computer Science of Human Decisions
 
-日本語を入力したらどうなるかな？
-
-これはいいじゃない！これで日本語でもブログを書けることができるね。残ってるのは文章の内容を考えて書くだけだ。
+#### April 1, 2021
 
 Computers are man-made creations that closely reflect our way of thinking.  Neurons are replaced with electrical wiring and our own fleshy brain with the polished cold metal of a central processing unit, or CPU. Therefore, it comes as no surprise that many of the principles that computer scientists apply to computers are modeled from concepts that we use in our lives. This opens up a two-way information street where we can advance our computers and simultaneously glean vital clues about our own lives. At one end of the street, Chip and Dan Heath illustrate certain principles that can make ideas more likely to “stick” and go mainstream in their book, Made to Stick. They assert that if ideas are kept as simple as possible, they have the highest chance of disseminating and surviving the test of time. In Freakonomics, this idea of simplicity also lends itself well to the complex incentive structures that require the right incentive to build upon. Although these resonate as very human problems, an astonishing similarity can be seen between this preference of simplicity in our lives and the other end of the street: data interpretation in computers.
 
