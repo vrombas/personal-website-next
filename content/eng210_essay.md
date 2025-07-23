@@ -1,4 +1,4 @@
-# Review of Made to Stick & The Computer Science of Human Decisions
+# A Review of Made to Stick & The Computer Science of Human Decisions
 
 #### April 1, 2021
 
