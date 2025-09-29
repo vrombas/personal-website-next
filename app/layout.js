@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import './globals.css';
+import { Analytics } from "@vercel/analytics/next"
+
 
 export const metadata = {
   title: 'My Personal Site',
@@ -27,6 +29,7 @@ export default function RootLayout({ children }) {
             <p>© 2025 Mr. Brown</p>
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
