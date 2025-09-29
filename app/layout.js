@@ -20,6 +20,9 @@ export default function RootLayout({ children }) {
               <div className="sub-nav">
                 <Link href="/writing/Review_of_Made_to_Stick">A Review of Made to Stick & The Computer Science of Human Decisions</Link>
               </div>
+              <div className="sub-nav">
+                <Link href="/writing/japanese">日本語</Link>
+              </div>
             </nav>
           </header>
           <main>{children}</main>

@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 
 export default async function Writing() {
   // Read the markdown file
-  const filePath = path.join(process.cwd(), 'app', 'writing', 'Review_of_Made_to_Stick', 'eng210_essay.md');
+  const filePath = path.join(process.cwd(), 'app', 'writing', 'japanese', 'page.md');
   const fileContent = await fs.readFile(filePath, 'utf8');
 
   const newWritings = [
