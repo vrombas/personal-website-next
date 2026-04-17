@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <div className="app">
           <header>
-            <h1>Mr. Brown</h1>
+            <h1>Vedant Ombase</h1>
             <nav>
             <div className="main-nav">
                 <Link href="/">About</Link>
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
           </header>
           <main>{children}</main>
           <footer>
-            <p>© 2025 Mr. Brown</p>
+            <p>© 2025 Vedant Ombase</p>
           </footer>
         </div>
         <Analytics />
