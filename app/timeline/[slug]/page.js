@@ -3,6 +3,10 @@ import Image from 'next/image';
 import BackToTimelineButton from './BackToTimelineButton';
 import { timelineDetails } from '../../timelineData';
 
+export function generateStaticParams() {
+  return Object.keys(timelineDetails).map((slug) => ({ slug }));
+}
+
 export default async function TimelineDetailPage({ params }) {
   const { slug } = await params;
   const detail = timelineDetails[slug];
