@@ -3,8 +3,9 @@ import Image from 'next/image';
 import BackToTimelineButton from './BackToTimelineButton';
 import { timelineDetails } from '../../timelineData';
 
-export default function TimelineDetailPage({ params }) {
-  const detail = timelineDetails[params.slug];
+export default async function TimelineDetailPage({ params }) {
+  const { slug } = await params;
+  const detail = timelineDetails[slug];
 
   if (!detail) {
     notFound();
